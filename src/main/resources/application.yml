@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: false
+  application:
+    name: account-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/account
