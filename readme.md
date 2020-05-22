@@ -4,16 +4,16 @@
   * org.springframework.validation.Validator
   * custom reactive validator
    
-##Prerequisites
+## Prerequisites
   * installed mongodb and binded to the localhost:27017 
     (to start mongo db in the docker container the ./docker/mongodb.bat or mongodb.sh can be used)
   * jdk 8
   * maven
   
-##Run application
+## Run application
 mvn spring-boot:run
 
-##Test application
+## Test application
   * curl commands are defined in the webflux-validation.curl.sh
   
   or
